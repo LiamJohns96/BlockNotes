@@ -49,7 +49,7 @@ struct ReorderableBlockContainer: View {
                         )
                         .animation(.easeInOut(duration: 1.3), value: isPressingID == block.id)
                         .shadow(color: .black.opacity(0.2), radius: isDragging ? 8 : 2)
-//                        .animation(.spring(response: 0.5, dampingFraction: 0.8), value: positions)
+                        .animation(.spring(response: 0.5, dampingFraction: 0.8), value: positions)
                         .gesture(
                             LongPressGesture(minimumDuration: 0.3)
                                 .onChanged { _ in
