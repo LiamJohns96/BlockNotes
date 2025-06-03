@@ -6,7 +6,11 @@
 	<dict>
 		<key>BlockNotes.debug.dylib</key>
 		<data>
-		/u2oO6Tc+PKQs6gySUYsI8OdYuw=
+		6xKVvvBT4YHcnMxs6BNUkSBgk3M=
+		</data>
+		<key>DefaultLayout.JSON</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,7 +31,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dWuUvoDKjvhw0glb7HKXYmkreplToJX3JoAIlfPmULE=
+			cz9VlRhll+4Zsagm6YlZfz875vqrKpJ/0qmbnqSjhdA=
+			</data>
+		</dict>
+		<key>DefaultLayout.JSON</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>

@@ -1,0 +1,16 @@
+{
+  "source": "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/ReorderableBlockContainer.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Switch Layout",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 73
+        }
+      }
+    ]
+  },
+  "version": 1
+}
