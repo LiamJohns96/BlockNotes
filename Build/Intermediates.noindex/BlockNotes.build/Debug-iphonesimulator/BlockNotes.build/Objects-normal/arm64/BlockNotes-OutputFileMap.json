@@ -1,0 +1,138 @@
+{
+  "" : {
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotes-master.dia",
+    "emit-module-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotes-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotes-master-emit-module.dia",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotes-master.swiftdeps"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/BlockNotesApp.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockNotesApp~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/ContentView.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Models/Block.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Block~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Models/BlockBody.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockBody~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Models/Note.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Note~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Storage/NotesStorage.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesStorage~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Utils/Color+Hex.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Color+Hex~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Utils/Colors.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/Colors~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/ViewModels/NotesViewModel.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesViewModel~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/BlockView.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/BlockView~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/NoteDetailView.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NoteDetailView~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/NotesListView.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/NotesListView~partial.swiftmodule"
+  },
+  "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/Build/Intermediates.noindex/BlockNotes.build/Debug-iphonesimulator/BlockNotes.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

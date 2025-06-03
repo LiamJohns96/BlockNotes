@@ -1,0 +1,16 @@
+{
+  "source": "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/NoteDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Add Block",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 40
+        }
+      }
+    ]
+  },
+  "version": 1
+}

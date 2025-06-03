@@ -1,6 +1,6 @@
 import Foundation
 
-enum BlockBody: Codable {
+enum BlockBody: Codable, Equatable {
     case text(String)
     case bullets([String])
     case numbered([String])

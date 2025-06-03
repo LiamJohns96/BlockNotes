@@ -1,0 +1,16 @@
+{
+  "source": "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/BlockView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 9
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,7 +7,11 @@ struct NotesListView: View {
         NavigationView {
             List {
                 ForEach(viewModel.notes) { note in
-                    NavigationLink(destination: NoteDetailView(note: note)) {
+                    NavigationLink(destination: NoteDetailView(
+                        note: note,
+                        onUpdate: { updatedNote in
+                            viewModel.update(note: updatedNote)
+                        })) {
                         Text(note.title)
                     }
                 }
