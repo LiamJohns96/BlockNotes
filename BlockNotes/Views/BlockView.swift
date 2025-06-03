@@ -21,7 +21,9 @@ struct BlockView: View {
                 }
 
             TextEditor(text: bindingForBody())
-                .font(.custom("Dashing Unicorn", size: 14))
+                .font(.custom("Dashing Unicorn", size: 12))
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 30/255, green: 30/255, blue: 30/255))
                 .frame(height: 120) // Fixed height
 //                .scrollDisabled(true)
                 .padding(1)
