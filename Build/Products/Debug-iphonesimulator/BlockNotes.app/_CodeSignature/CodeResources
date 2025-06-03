@@ -6,7 +6,11 @@
 	<dict>
 		<key>BlockNotes.debug.dylib</key>
 		<data>
-		6xKVvvBT4YHcnMxs6BNUkSBgk3M=
+		z8dJDX+y5Levy/kCLm9eYwGXp44=
+		</data>
+		<key>DashingUnicorn.ttf</key>
+		<data>
+		XJ7Ekd20YG4K3A2N1JIXHuUYTeA=
 		</data>
 		<key>DefaultLayout.JSON</key>
 		<data>
@@ -14,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wFIoLHq7+7nEkFxpaHaFsNiDvAA=
+		H2Hf3Y1PrrErpkMFP58GzF1bUM0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -31,7 +35,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cz9VlRhll+4Zsagm6YlZfz875vqrKpJ/0qmbnqSjhdA=
+			ir55qJhJypUBvkxmaTypPI5X7tR4AES3bgZcYzLM+VU=
+			</data>
+		</dict>
+		<key>DashingUnicorn.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uIPSZ1lcJ/rDrogH1vHAKp/nxLKbjVtGOyGveE/f9Lw=
 			</data>
 		</dict>
 		<key>DefaultLayout.JSON</key>
