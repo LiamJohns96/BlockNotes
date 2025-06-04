@@ -14,7 +14,7 @@ struct AlternatingLeftRightLayout: BlockLayoutTemplate {
         let baseY = CGFloat(row) * (blockSize.height + spacing) + blockSize.height / 2
 
         // ✅ Add half block height if it's an odd index
-        let yOffset = isLeft ? 0 : blockSize.height / 2
+        let yOffset = isLeft ? 0 : blockSize.height * 0.7
 
         let x = colOffset + blockSize.width / 2
         let y = baseY + yOffset + blockSize.height / 2

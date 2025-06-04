@@ -15,6 +15,7 @@ struct BlockView: View {
 //                    RoundedRectangle(cornerRadius: 6)
 //                        .stroke(Color.white.opacity(0.2), lineWidth: 1)
 //                )
+                .accentColor(.purple)
                 .cornerRadius(6)
                 .onChange(of: block.title) {
                     onUpdate()
@@ -27,6 +28,7 @@ struct BlockView: View {
                 .frame(height: 120) // Fixed height
 //                .scrollDisabled(true)
                 .padding(1)
+                .accentColor(.purple)
                 .scrollContentBackground(.hidden)
                 .background(Color.clear)
                 .cornerRadius(6)

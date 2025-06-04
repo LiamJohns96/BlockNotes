@@ -2,30 +2,43 @@ import SwiftUI
 
 struct NoteDetailView: View {
     @State var note: Note
-
     var onUpdate: (Note) -> Void
 
     var body: some View {
-        VStack {
-            ReorderableBlockContainer(blocks: $note.blocks) { updatedBlock in
-                onUpdate(note)
-            }
+        ZStack {
+            Color(red: 254/255, green: 245/255, blue: 255/255) // light purple
+                .ignoresSafeArea() // ensure it fills entire screen
 
-            Button(action: addBlock) {
-                HStack {
-                    Image(systemName: "plus")
-                    Text("Add Block")
+            VStack(spacing: 0) {
+                TextField("Note Title", text: $note.title)
+                    .font(.system(size: 14, weight: .bold))
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 5)
+                    .padding(.horizontal, 16)
+                    .textFieldStyle(.plain)
+                    .onChange(of: note.title) {
+                        onUpdate(note)
+                    }
+
+                ReorderableBlockContainer(blocks: $note.blocks) { updatedBlock in
+                    onUpdate(note)
                 }
-                .padding()
-                .frame(maxWidth: .infinity)
-                .background(Color.mint)
-                .foregroundColor(.white)
-                .cornerRadius(12)
-                .padding([.horizontal, .bottom])
+
+                Button(action: addBlock) {
+                    HStack {
+                        Image(systemName: "plus")
+                        Text("Add Block")
+                    }
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.mint)
+                    .foregroundColor(.white)
+                    .cornerRadius(12)
+                    .padding([.horizontal, .bottom])
+                }
             }
-        }.background(Color(red: 254/255, green: 245/255, blue: 255/255)) // same as above
+        }
     }
-        
 
     func addBlock() {
         let newBlock = Block(

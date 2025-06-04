@@ -25,7 +25,7 @@ struct ReorderableBlockContainer: View {
         let width = UIScreen.main.bounds.width / 2 - 24  // half screen width minus padding
         return CGSize(width: width, height: 160)
     }
-    private let spacing: CGFloat = 100
+    private let spacing: CGFloat = 80
     private let columns = 2
 
     var body: some View {
@@ -90,7 +90,7 @@ struct ReorderableBlockContainer: View {
                 }
                 .frame(height: totalContentHeight(), alignment: .top) // <-- key line for scrollable height
             }
-            .padding(.top, 60)
+            .padding(.top, 1)
             .onAppear {
                 updatePositions(containerSize: geometry.size)
             }
