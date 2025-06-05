@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Aurora.otf</key>
+		<data>
+		vqmUpvVccsDqjPRCHFty7rGMaP0=
+		</data>
 		<key>BlockNotes.debug.dylib</key>
 		<data>
-		zW2EopK0yKrdM2IPdlFTcL0gZLc=
+		tLARaGrkl15N7QsRGGSW9wWyX5c=
+		</data>
+		<key>Cream Peach.ttf</key>
+		<data>
+		mIZFeE67BrQRJ37ZBmfxnQWLvbo=
 		</data>
 		<key>DashingUnicorn.ttf</key>
 		<data>
@@ -18,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H2Hf3Y1PrrErpkMFP58GzF1bUM0=
+		eV9JqG8aGw3mpMoIkGTqw7CEtYg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -31,11 +39,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Aurora.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5TnNPsPsj/5ab0QCBlfpWSx5YRPNoowyEvuj9fkBSKQ=
+			</data>
+		</dict>
 		<key>BlockNotes.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSmOTvUPvtJT4PwOPTKgmj4mB18q8zW+DE4UtHkAD8w=
+			ZeOZeXbSa90LHpIeqOUm283D8D/AwmPZgfhQlEVxNxk=
+			</data>
+		</dict>
+		<key>Cream Peach.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N+eccSHmYjixZIMmyaV5YBVPi1owITC17BW3aj6VvSY=
 			</data>
 		</dict>
 		<key>DashingUnicorn.ttf</key>

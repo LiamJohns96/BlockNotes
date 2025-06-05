@@ -1,5 +1,16 @@
 {
   "source": "/Users/liam/coding/iOS_Apps/BlockNotes/BlockNotes/BlockNotes/Views/ReorderableBlockContainer.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Note Title",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 49
+        }
+      }
+    ]
+  },
   "version": 1
 }

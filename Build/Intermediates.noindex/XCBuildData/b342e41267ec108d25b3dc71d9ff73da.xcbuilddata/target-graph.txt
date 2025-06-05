@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'BlockNotes' in project 'BlockNotes' (no dependencies)

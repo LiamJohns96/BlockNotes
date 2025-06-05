@@ -4,18 +4,10 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Note Title",
-        "location": {
-          "startingColumn": 27,
-          "startingLine": 13
-        }
-      },
-      {
-        "comment": "",
-        "key": "Add Block",
+        "key": "Back",
         "location": {
           "startingColumn": 30,
-          "startingLine": 30
+          "startingLine": 46
         }
       }
     ]

@@ -1,46 +1,69 @@
 import SwiftUI
 
 struct NoteDetailView: View {
+    @Environment(\.dismiss) private var dismiss
     @State var note: Note
     var onUpdate: (Note) -> Void
 
     var body: some View {
         ZStack {
-            Color(red: 254/255, green: 245/255, blue: 255/255) // light purple
-                .ignoresSafeArea() // ensure it fills entire screen
+            // MARK: - Background Color (fills the entire screen including safe areas)
+            Color(red: 254/255, green: 245/255, blue: 255/255)
+                .ignoresSafeArea()
 
             VStack(spacing: 0) {
-                TextField("Note Title", text: $note.title)
-                    .font(.system(size: 14, weight: .bold))
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 5)
-                    .padding(.horizontal, 16)
-                    .textFieldStyle(.plain)
-                    .onChange(of: note.title) {
-                        onUpdate(note)
-                    }
-
-                ReorderableBlockContainer(blocks: $note.blocks) { updatedBlock in
+                // MARK: - Main Content Area
+                ReorderableBlockContainer(title: $note.title, blocks: $note.blocks) { updatedBlock in
                     onUpdate(note)
                 }
+            }
 
-                Button(action: addBlock) {
-                    HStack {
+            // MARK: - Floating Add Block Button
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+                    Button(action: addBlock) {
                         Image(systemName: "plus")
-                        Text("Add Block")
+                            .font(.system(size: 24))
+                            .foregroundColor(.white)
+                            .frame(width: 80, height: 80)
+                            .background(Color.mint)
+                            .cornerRadius(12)
                     }
+                    .shadow(radius: 4)
                     .padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color.mint)
-                    .foregroundColor(.white)
-                    .cornerRadius(12)
-                    .padding([.horizontal, .bottom])
                 }
             }
         }
+        
+        // MARK: - Custom Toolbar with Background Color
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button(action: { dismiss() }) {
+                    HStack(spacing: 4) {
+                        Image(systemName: "chevron.left")
+                        Text("Back")
+                    }
+                    .foregroundColor(.blue)
+                }
+            }
+        }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(
+            Color(red: 233/255, green: 196/255, blue: 255/255), for: .navigationBar
+        )
+        .toolbarBackground(.visible, for: .navigationBar)
+        .ignoresSafeArea(.keyboard)
+        .onTapGesture {
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        }
+        
     }
 
-    func addBlock() {
+    // MARK: - Add Block Logic
+    private func addBlock() {
         let newBlock = Block(
             id: UUID(),
             title: "New Block",
@@ -50,4 +73,6 @@ struct NoteDetailView: View {
         note.blocks.append(newBlock)
         onUpdate(note)
     }
+    
+    
 }

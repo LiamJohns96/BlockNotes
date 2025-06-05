@@ -1,5 +1,3 @@
-// Reworked ReorderableBlockContainer with per-block A-to-B animations using custom layout positions
-
 import SwiftUI
 
 struct BlockPosition: Equatable {
@@ -8,6 +6,7 @@ struct BlockPosition: Equatable {
 }
 
 struct ReorderableBlockContainer: View {
+    @Binding var title: String
     @Binding var blocks: [Block]
     @State private var draggingBlockID: UUID?
     @State private var dragOffset: CGSize = .zero
@@ -31,73 +30,97 @@ struct ReorderableBlockContainer: View {
     var body: some View {
         GeometryReader { geometry in
             ScrollView {
-                ZStack(alignment: .topLeading) {
-                    ForEach(blocks.indices, id: \.self) { index in
-                        let block = blocks[index]
-                        let isDragging = block.id == draggingBlockID
-                        let position = positions[block.id] ?? positionFor(index: index, container: geometry.size)
-
-                        BlockView(block: binding(for: block)) {
-                            onUpdate(block)
-                        }
-                        .frame(width: blockSize.width, height: blockSize.height)
-                        .position(x: position.x, y: position.y)
-                        .offset(isDragging ? dragOffset : .zero)
-                        .zIndex(isDragging ? 1 : 0)
-                        .scaleEffect(
-                            isDragging ? 1.05 : (isPressingID == block.id ? 1.08 : 1.0)
-                        )
-                        .animation(.easeInOut(duration: 1.3), value: isPressingID == block.id)
-                        .shadow(color: .black.opacity(0.2), radius: isDragging ? 8 : 2)
-                        .animation(.spring(response: 0.5, dampingFraction: 0.8), value: positions)
-                        .gesture(
-                            LongPressGesture(minimumDuration: 0.3)
-                                .onChanged { _ in
-                                    isPressingID = block.id
-                                }
-                                .onEnded { success in
-                                    if success {
-                                        // Start drag after long press completes
-                                        draggingBlockID = block.id
-                                        originalIndex = index
-                                    } else {
-                                        // Cancelled before long press duration
-                                        isPressingID = nil
-                                    }
-                                }
-                                .sequenced(before: DragGesture())
-                                .onChanged { value in
-                                    switch value {
-                                    case .second(true, let drag?):
-                                        dragOffset = drag.translation
-                                    default:
-                                        break
-                                    }
-                                }
-                                .onEnded { value in
-                                    isPressingID = nil
-                                    if case .second(true, let drag?) = value,
-                                       let from = originalIndex,
-                                       let to = dropTarget(in: geometry.size, offset: drag.translation, fromIndex: from) {
-                                        move(from: from, to: to)
-                                    }
-                                    draggingBlockID = nil
-                                    originalIndex = nil
-                                    dragOffset = .zero
-                                }
-                        )
+                
+                VStack(spacing: 0) {
+                    // TITLE INSIDE SCROLL VIEW
+//                    TextField("Note Title", text: $title)
+//                        .font(.custom("Times", size: 15))
+//                        .fontWeight(.light)
+//                        .multilineTextAlignment(.center)
+//                        .padding(.top, 20)
+//                        .padding(.horizontal, 16)
+//                        .textFieldStyle(.plain)
+//                        .accentColor(Color.black)
+//                        .onChange(of: title) { _ in
+//                            // Optional — trigger updates if needed
+//                        }
+                    
+                    HStack(){
+                        TextField("Note Title", text: $title)
+                            .font(.custom("Aurora", size: 18))
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.leading)
+                            .padding(.vertical, 10)
+                            .padding(.leading, 12)
+                            .padding(.trailing, 8)
+                            .foregroundColor(.white)
+                            .textFieldStyle(.plain)
+                            .background(RGB(220, 173, 247))
+                            .cornerRadius(13)
                     }
-                }
-                .frame(height: totalContentHeight(), alignment: .top) // <-- key line for scrollable height
-            }
-            .padding(.top, 1)
-            .onAppear {
-                updatePositions(containerSize: geometry.size)
-            }
-            .onChange(of: blocks) { _ in
-                updatePositions(containerSize: geometry.size)
-            }
+                    .padding(10)
+                    .background(RGB(233, 196, 255))
+                    .offset(y: -1)
+
+                    ZStack(alignment: .topLeading) {
+                                ForEach(blocks.indices, id: \.self) { index in
+                                    let block = blocks[index]
+                                    let isDragging = block.id == draggingBlockID
+                                    let position = positions[block.id] ?? positionFor(index: index, container: geometry.size)
+
+                                    BlockView(block: binding(for: block)) {
+                                        onUpdate(block)
+                                    }
+                                    .frame(width: blockSize.width, height: blockSize.height)
+                                    .position(x: position.x, y: position.y)
+                                    .offset(isDragging ? dragOffset : .zero)
+                                    .zIndex(isDragging ? 1 : 0)
+                                    .shadow(color: .black.opacity(0.2), radius: isDragging ? 8 : 2)
+                                    .animation(.spring(response: 0.5, dampingFraction: 0.8), value: positions)
+                                    .gesture(
+                                        LongPressGesture(minimumDuration: 0.3)
+                                            .onChanged { _ in isPressingID = block.id }
+                                            .onEnded { success in
+                                                if success {
+                                                    draggingBlockID = block.id
+                                                    originalIndex = index
+                                                } else {
+                                                    isPressingID = nil
+                                                }
+                                            }
+                                            .sequenced(before: DragGesture())
+                                            .onChanged { value in
+                                                if case .second(true, let drag?) = value {
+                                                    dragOffset = drag.translation
+                                                }
+                                            }
+                                            .onEnded { value in
+                                                isPressingID = nil
+                                                if case .second(true, let drag?) = value,
+                                                   let from = originalIndex,
+                                                   let to = dropTarget(in: geometry.size, offset: drag.translation, fromIndex: from) {
+                                                    move(from: from, to: to)
+                                                }
+                                                draggingBlockID = nil
+                                                originalIndex = nil
+                                                dragOffset = .zero
+                                            }
+                                    )
+                                }
+                            }
+                            .frame(height: totalContentHeight(), alignment: .top)
+                        }
+                    }
+                    .padding(.top, 0)
+                    .background(Color.clear) // Needed for layout stability
+                    .onAppear {
+                        updatePositions(containerSize: geometry.size)
+                    }
+                    .onChange(of: blocks) { _ in
+                        updatePositions(containerSize: geometry.size)
+                    }
         }
+        .ignoresSafeArea(.keyboard)
 
         
 //        Button("Switch Layout") {
