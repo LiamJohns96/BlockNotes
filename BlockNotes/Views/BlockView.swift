@@ -6,7 +6,7 @@ struct BlockView: View {
     var onUpdate: () -> Void
     
     var body: some View {
-        VStack(alignment: .leading, spacing: -5) {
+        VStack(alignment: .leading, spacing: 8) {
             TextField("Title", text: $block.title)
                 .font(.custom("Dashing Unicorn", size: 20))
                 .padding(1)

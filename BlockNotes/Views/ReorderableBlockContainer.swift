@@ -22,7 +22,7 @@ struct ReorderableBlockContainer: View {
 
     private var blockSize: CGSize {
         let width = UIScreen.main.bounds.width / 2 - 24  // half screen width minus padding
-        return CGSize(width: width, height: 160)
+        return CGSize(width: width, height: width)
     }
     private let spacing: CGFloat = 80
     private let columns = 2
@@ -108,7 +108,7 @@ struct ReorderableBlockContainer: View {
                                     )
                                 }
                             }
-                            .frame(height: totalContentHeight(), alignment: .top)
+                    .frame(height: totalContentHeight() + blockSize.height * 3, alignment: .top)
                         }
                     }
                     .padding(.top, 0)
@@ -149,12 +149,23 @@ struct ReorderableBlockContainer: View {
 
 
     private func dropTarget(in containerSize: CGSize, offset: CGSize, fromIndex: Int) -> Int? {
-        let dragY = CGFloat(fromIndex / columns) * (blockSize.height + spacing) + offset.height
+        let floatFromIndex = CGFloat(fromIndex)
+        let floatColumns = CGFloat(columns)
+        let dragY = CGFloat(floatFromIndex / floatColumns) * (blockSize.height + spacing) + offset.height
+       
         let dragRow = Int((dragY + blockSize.height / 2) / (blockSize.height + spacing))
+  
         let dragCol = offset.width > 50 ? 1 : (offset.width < -50 ? 0 : fromIndex % 2)
+       
         let targetIndex = dragRow * columns + dragCol
-        return min(max(0, targetIndex), blocks.count - 1)
+        
+        let clampedIndex = min(max(0, targetIndex), blocks.count - 1)
+        
+        return clampedIndex
     }
+
+    
+
 
     private func move(from: Int, to: Int) {
         guard from != to else { return }

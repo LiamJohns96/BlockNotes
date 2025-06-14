@@ -27,14 +27,18 @@ struct NotesListView: View {
                             let newNote = Note(id: UUID(), title: generateDate(), blocks: [])
                             viewModel.add(note: newNote)
                         }) {
+                            Text("Note")
+                                .font(.custom("Arial Rounded MT Bold", size: 14))
+                                .foregroundColor(Color.pink)
+                                .fontWeight(.bold)
                             Image(systemName: "plus")
                                 .font(.system(size: 24))
                                 .foregroundColor(.white)
                                 .frame(width: 60, height: 60)
-                                .background(Color.mint)
+                                .background(Color.pink)
                                 .cornerRadius(12)
                         }
-                        .shadow(radius: 4)
+//                        .shadow(radius: 4)
                     }
                     .padding([.horizontal, .top])
 
